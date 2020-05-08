@@ -10,11 +10,9 @@
    <rowConstraints>
       <RowConstraints />
    </rowConstraints>
-   <children>
-      <Button mnemonicParsing="false" text="(b)" />
-      <Button mnemonicParsing="false" text="(a)" />
-       <Button mnemonicParsing="false" text="(c)" />
-       <Button mnemonicParsing="false" text="(d)" />
+    <children>
 
-   </children>
+
+    </children>
+
 </GridPane>

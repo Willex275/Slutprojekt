@@ -20,6 +20,7 @@ public class Main extends Application {
         primaryStage.setTitle("Slutprojekt");
         primaryStage.setScene(new Scene(root, 400, 400));
         primaryStage.show();
+        primaryStage.setResizable(false);
 
     }
 
