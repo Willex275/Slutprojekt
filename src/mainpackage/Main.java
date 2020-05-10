@@ -8,6 +8,7 @@ import javafx.stage.Stage;
 
 import javax.swing.*;
 import javax.swing.text.View;
+import java.awt.*;
 
 public class Main extends Application {
 
@@ -23,6 +24,41 @@ public class Main extends Application {
         primaryStage.setResizable(false);
 
     }
+
+
+
+
+    public String[][] Questions =
+
+            {{"Who was the person behind microsoft?", "Bill Gates", "Steve Jobs", "Drake", "Donald Trump"},
+
+                    {"When was the eiffel tower built?", "1887", "1825", "1765", "1990"},
+
+                    {"When did Donald Trump become president?", "2016", "2020", "2002", "1876"},
+
+                    {"When did 9/11 take place?", "2001", "1901", "2002", "2023"}};
+
+
+
+    TextField text = new TextField();
+
+    Button a = new Button();
+
+    Button b = new Button();
+
+    Button c = new Button();
+
+    Button d = new Button();
+
+    char correct;
+
+    boolean active;
+
+
+
+
+
+
 
 
 
